@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large data / model files (do not commit)
+datasets/
+checkpoints/
+logs/
+*.pth
+*.pt
+*.npz
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+typescript/
